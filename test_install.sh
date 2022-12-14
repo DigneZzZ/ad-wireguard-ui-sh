@@ -131,7 +131,7 @@ function installWireGuard() {
 		#	dnf install -y dnf-plugins-core
 		#	dnf copr enable -y jdoss/wireguard
 		#	dnf install -y wireguard-dkms
-		fi
+		#fi
 		#dnf install -y wireguard-tools iptables qrencode
 	elif [[ ${OS} == 'almalinux' ]]; then
 		#dnf -y install epel-release elrepo-release
